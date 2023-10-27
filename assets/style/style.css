@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto+Mono&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playpen+Sans:wght@200;400;600&family=Roboto+Mono&family=Titillium+Web&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -97,6 +97,7 @@ footer {
 	padding: 23px;
 	margin: 30px;
 	background-color: lightgoldenrodyellow;
+	border-radius: 6px;
 }
 
 .user_details {
@@ -136,4 +137,38 @@ footer {
 	border: 2px solid aliceblue;
 	padding: 2px;
 	border-radius: 6px;
+}
+
+.products_main_section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	font-family: 'Oswald', sans-serif;
+	font-size: 72px;
+	font-weight: 900;
+}
+
+.products_main_section .products_page_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 0;
+	align-items: center;
+}
+
+.products_main_section .products_page_text button {
+	border: none;
+	border-radius: 21px;
+	padding: 20px 52px;
+	font-size: 32px;
+	cursor: pointer;
+}
+
+.products_main_section .products_page_text button:first-child {
+	background-color: #f50b48;
+}
+
+.products_main_section .products_page_text button:first-child:hover {
+	background-color: #C3093B;
 }
