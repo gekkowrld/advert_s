@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto+Mono&family=Titillium+Web&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bolder;
+}
+
+header li {
+	list-style-type: none;
+}
+
+header nav {
+	border: 1px solid red;
+	border-radius: 12px;
+	padding: 20px;
+	background-color: black;
+}
+
+header nav ul{
+	display: flex;
+	gap: 10px;
+}
+
+header nav a {
+	text-decoration: none;
+}
+
+header nav a:active {
+	color: blanchedalmond;
+}
+header nav a:link {
+	color: blanchedalmond;
+}
+
+header nav a:visited{
+	color: blanchedalmond;
+}
+
+header nav ul li a:focus{
+	color: aqua;
+	font-size: larger;
+}
+
+header nav ul li a:hover{
+	color: aqua;
+}
+
+.dummy_icons {
+	margin-right: 10px;
+}
+
+.dummy_icons ul {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.dummy_icons ul li {
+	cursor: pointer;
+}
+
+.video_as_bg{
+	overflow: hidden;
+	position: relative;
+}
+main .text_overlay{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	font-family: 'Roboto Mono', monospace;
+	color: lightseagreen;
+	font-size: 2pc;
+	font-weight: 900;
+}
+
+footer {
+	margin-top: auto;
+	font-family: 'Playpen Sans', cursive;
+	text-align: center;
+	font-size: 32px;
+	padding: 23px;
+	margin: 30px;
+	background-color: lightgoldenrodyellow;
+}
+
+.user_details {
+	font-size: 17px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.page_n_f_b {
+	background-color: #f1f1f1;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.page_n_f_h {
+	font-size: 50px;
+	color: #555;
+}
+.page_n_f_p {
+	font-size: 20px;
+	color: #777;
+}
+.social-icons {
+	margin-top: 50px;
+}
+.social-icons a {
+	display: inline-block;
+	margin: 0 10px;
+	color: #555;
+	font-size: 30px;
+	transition: all 0.3s ease-in-out;
+}
+.social-icons a:hover {
+	color: #1da1f2;
+}
+
+.focus_on_current_page{
+	border: 2px solid aliceblue;
+	padding: 2px;
+	border-radius: 6px;
+}
